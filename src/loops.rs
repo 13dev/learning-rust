@@ -21,7 +21,6 @@ pub fn while_loop() {
 
         println!("While loop {}", counter);
     }
-
 }
 
 pub fn for_loops() {
@@ -46,4 +45,8 @@ pub fn for_loops() {
 
     println!("Accessing Laranja vector pos: {}", my_vector[1]);
 
+    // for loop with enumerate
+    for (index, value) in my_vector.iter().enumerate() {
+        println!("Foor loop vector index is {} and value is {}", index, value);
+    }
 }
