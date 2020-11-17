@@ -2,6 +2,7 @@ mod loops;
 mod enums;
 mod constants;
 mod tuples;
+mod exercise1;
 
 fn main() {
     //loops::infinite_loop();
@@ -10,8 +11,10 @@ fn main() {
 
     //enums::var_enum();
 
-    constants::testing_constant();
-    tuples::define_tuples();
+    //constants::testing_constant();
+    //tuples::define_tuples();
+    exercise1::testing();
+
 
     println!("Hello, world!");
 }

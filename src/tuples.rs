@@ -9,5 +9,4 @@ pub fn define_tuples() {
 
     println!("Accessing tuple 2... ({})", a.1);
     println!("Accessing tuple 3... ({})", b);
-
 }
